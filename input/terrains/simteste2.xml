@@ -1,0 +1,646 @@
+<?xml version="1.0" ?>
+<cenario velociadeMedia="0.7">
+    <modelo>c:/users/estevao/desktop/simulador/gerenciadorcenarios-jun/modelos/plano.obj</modelo>
+    <vertices>
+        <vertice idVertice="0">
+            <posx>-34.5391</posx>
+            <posy>0.01</posy>
+            <posz>-9.50845</posz>
+        </vertice>
+        <vertice idVertice="1">
+            <posx>-35.4937</posx>
+            <posy>0.01</posy>
+            <posz>5.08001</posz>
+        </vertice>
+        <vertice idVertice="2">
+            <posx>-5.30655</posx>
+            <posy>0.01</posy>
+            <posz>6.4826</posz>
+        </vertice>
+        <vertice idVertice="3">
+            <posx>-4.11959</posx>
+            <posy>0.01</posy>
+            <posz>-7.33357</posz>
+        </vertice>
+        <vertice idVertice="4">
+            <posx>16.5705</posx>
+            <posy>0.01</posy>
+            <posz>8.07006</posz>
+        </vertice>
+        <vertice idVertice="5">
+            <posx>17.2931</posx>
+            <posy>0.01</posy>
+            <posz>-5.97311</posz>
+        </vertice>
+        <vertice idVertice="6">
+            <posx>40.1649</posx>
+            <posy>0.0100038</posy>
+            <posz>9.81927</posz>
+        </vertice>
+        <vertice idVertice="7">
+            <posx>40.2614</posx>
+            <posy>0.01</posy>
+            <posz>-5.20707</posz>
+        </vertice>
+        <vertice idVertice="8">
+            <posx>-33.1118</posx>
+            <posy>0.01</posy>
+            <posz>-29.5737</posz>
+        </vertice>
+        <vertice idVertice="9">
+            <posx>-33.9457</posx>
+            <posy>0.01</posy>
+            <posz>-16.2804</posz>
+        </vertice>
+        <vertice idVertice="10">
+            <posx>-3.49554</posx>
+            <posy>0.01</posy>
+            <posz>-14.1883</posz>
+        </vertice>
+        <vertice idVertice="11">
+            <posx>-2.80446</posx>
+            <posy>0.01</posy>
+            <posz>-28.0369</posz>
+        </vertice>
+        <vertice idVertice="12">
+            <posx>17.5813</posx>
+            <posy>0.01</posy>
+            <posz>-13.7596</posz>
+        </vertice>
+        <vertice idVertice="13">
+            <posx>17.5753</posx>
+            <posy>0.01</posy>
+            <posz>-26.5347</posz>
+        </vertice>
+        <vertice idVertice="14">
+            <posx>39.8638</posx>
+            <posy>0.01</posy>
+            <posz>-13.0367</posz>
+        </vertice>
+        <vertice idVertice="15">
+            <posx>39.6149</posx>
+            <posy>0.0100038</posy>
+            <posz>-25.2519</posz>
+        </vertice>
+        <vertice idVertice="16">
+            <posx>52.6052</posx>
+            <posy>0.01</posy>
+            <posz>-2.33466</posz>
+        </vertice>
+        <vertice idVertice="17">
+            <posx>51.376</posx>
+            <posy>0.01</posy>
+            <posz>-14.2893</posz>
+        </vertice>
+        <vertice idVertice="18">
+            <posx>45.7983</posx>
+            <posy>0.01</posy>
+            <posz>-3.08073</posz>
+        </vertice>
+        <vertice idVertice="19">
+            <posx>44.8261</posx>
+            <posy>0.01</posy>
+            <posz>-14.2881</posz>
+        </vertice>
+        <vertice idVertice="20">
+            <posx>40.8804</posx>
+            <posy>0.01</posy>
+            <posz>-12.03</posz>
+        </vertice>
+        <vertice idVertice="21">
+            <posx>41.146</posx>
+            <posy>0.01</posy>
+            <posz>-6.4704</posz>
+        </vertice>
+        <vertice idVertice="22">
+            <posx>-37.3742</posx>
+            <posy>0.01</posy>
+            <posz>-15.641</posz>
+        </vertice>
+        <vertice idVertice="23">
+            <posx>-37.8121</posx>
+            <posy>0.01</posy>
+            <posz>-11.1979</posz>
+        </vertice>
+        <vertice idVertice="24">
+            <posx>-41.0377</posx>
+            <posy>0.01</posy>
+            <posz>-18.1931</posz>
+        </vertice>
+        <vertice idVertice="25">
+            <posx>-41.9564</posx>
+            <posy>0.01</posy>
+            <posz>-8.51376</posz>
+        </vertice>
+        <vertice idVertice="26">
+            <posx>-48.6107</posx>
+            <posy>0.01</posy>
+            <posz>-18.4312</posz>
+        </vertice>
+        <vertice idVertice="27">
+            <posx>-50.0349</posx>
+            <posy>0.01</posy>
+            <posz>-8.60695</posz>
+        </vertice>
+        <vertice idVertice="28">
+            <posx>-3.93496</posx>
+            <posy>0.01</posy>
+            <posz>-9.50443</posz>
+        </vertice>
+        <vertice idVertice="29">
+            <posx>-3.6754</posx>
+            <posy>0.01</posy>
+            <posz>-12.2523</posz>
+        </vertice>
+        <vertice idVertice="30">
+            <posx>17.3652</posx>
+            <posy>0.01</posy>
+            <posz>-7.91973</posz>
+        </vertice>
+        <vertice idVertice="31">
+            <posx>17.5093</posx>
+            <posy>0.01</posy>
+            <posz>-11.813</posz>
+        </vertice>
+        <vertice idVertice="32">
+            <posx>1.23358</posx>
+            <posy>0.01</posy>
+            <posz>-6.99345</posz>
+        </vertice>
+        <vertice idVertice="33">
+            <posx>11.9399</posx>
+            <posy>0.01</posy>
+            <posz>-6.31323</posz>
+        </vertice>
+        <vertice idVertice="34">
+            <posx>1.77367</posx>
+            <posy>0.01</posy>
+            <posz>-14.0811</posz>
+        </vertice>
+        <vertice idVertice="35">
+            <posx>12.3121</posx>
+            <posy>0.01</posy>
+            <posz>-13.8668</posz>
+        </vertice>
+        <vertice idVertice="36">
+            <posx>1.37068</posx>
+            <posy>0.010001</posy>
+            <posz>-8.96426</posz>
+        </vertice>
+        <vertice idVertice="37">
+            <posx>12.022</posx>
+            <posy>0.01</posy>
+            <posz>-8.3398</posz>
+        </vertice>
+        <vertice idVertice="38">
+            <posx>1.68302</posx>
+            <posy>0.01</posy>
+            <posz>-11.9657</posz>
+        </vertice>
+        <vertice idVertice="39">
+            <posx>12.3539</posx>
+            <posy>0.01</posy>
+            <posz>-11.8164</posz>
+        </vertice>
+    </vertices>
+    <arestas>
+        <aresta idAresta="0" portaAcionada="nao">
+            <refVertice1>0</refVertice1>
+            <refVertice2>1</refVertice2>
+        </aresta>
+        <aresta idAresta="1" portaAcionada="nao">
+            <refVertice1>1</refVertice1>
+            <refVertice2>2</refVertice2>
+        </aresta>
+        <aresta idAresta="2" portaAcionada="sim" marco1="0.47" marco2="0.53" refContexto1="1" refContexto2="0" portaFechavel="nao">
+            <refVertice1>2</refVertice1>
+            <refVertice2>3</refVertice2>
+        </aresta>
+        <aresta idAresta="3" portaAcionada="nao">
+            <refVertice1>3</refVertice1>
+            <refVertice2>0</refVertice2>
+        </aresta>
+        <aresta idAresta="4" portaAcionada="nao">
+            <refVertice1>2</refVertice1>
+            <refVertice2>4</refVertice2>
+        </aresta>
+        <aresta idAresta="5" portaAcionada="sim" marco1="0.47" marco2="0.53" refContexto1="2" refContexto2="1" portaFechavel="nao">
+            <refVertice1>4</refVertice1>
+            <refVertice2>5</refVertice2>
+        </aresta>
+        <aresta idAresta="6" portaAcionada="sim" marco1="0" marco2="1" refContexto1="12" refContexto2="1" portaFechavel="nao">
+            <refVertice1>32</refVertice1>
+            <refVertice2>3</refVertice2>
+        </aresta>
+        <aresta idAresta="7" portaAcionada="nao">
+            <refVertice1>4</refVertice1>
+            <refVertice2>6</refVertice2>
+        </aresta>
+        <aresta idAresta="8" portaAcionada="nao">
+            <refVertice1>6</refVertice1>
+            <refVertice2>7</refVertice2>
+        </aresta>
+        <aresta idAresta="9" portaAcionada="nao">
+            <refVertice1>7</refVertice1>
+            <refVertice2>5</refVertice2>
+        </aresta>
+        <aresta idAresta="10" portaAcionada="sim" marco1="0" marco2="1" refContexto1="14" refContexto2="8" portaFechavel="nao">
+            <refVertice1>30</refVertice1>
+            <refVertice2>5</refVertice2>
+        </aresta>
+        <aresta idAresta="11" portaAcionada="sim" marco1="0" marco2="1" refContexto1="15" refContexto2="9" portaFechavel="nao">
+            <refVertice1>29</refVertice1>
+            <refVertice2>10</refVertice2>
+        </aresta>
+        <aresta idAresta="12" portaAcionada="nao">
+            <refVertice1>8</refVertice1>
+            <refVertice2>9</refVertice2>
+        </aresta>
+        <aresta idAresta="13" portaAcionada="nao">
+            <refVertice1>9</refVertice1>
+            <refVertice2>10</refVertice2>
+        </aresta>
+        <aresta idAresta="14" portaAcionada="sim" marco1="0.47" marco2="0.53" refContexto1="4" refContexto2="3" portaFechavel="nao">
+            <refVertice1>10</refVertice1>
+            <refVertice2>11</refVertice2>
+        </aresta>
+        <aresta idAresta="15" portaAcionada="nao">
+            <refVertice1>11</refVertice1>
+            <refVertice2>8</refVertice2>
+        </aresta>
+        <aresta idAresta="16" portaAcionada="sim" marco1="0" marco2="1" refContexto1="17" refContexto2="4" portaFechavel="nao">
+            <refVertice1>35</refVertice1>
+            <refVertice2>12</refVertice2>
+        </aresta>
+        <aresta idAresta="17" portaAcionada="sim" marco1="0.47" marco2="0.53" refContexto1="5" refContexto2="4" portaFechavel="nao">
+            <refVertice1>12</refVertice1>
+            <refVertice2>13</refVertice2>
+        </aresta>
+        <aresta idAresta="18" portaAcionada="nao">
+            <refVertice1>13</refVertice1>
+            <refVertice2>11</refVertice2>
+        </aresta>
+        <aresta idAresta="19" portaAcionada="nao">
+            <refVertice1>12</refVertice1>
+            <refVertice2>14</refVertice2>
+        </aresta>
+        <aresta idAresta="20" portaAcionada="nao">
+            <refVertice1>14</refVertice1>
+            <refVertice2>15</refVertice2>
+        </aresta>
+        <aresta idAresta="21" portaAcionada="nao">
+            <refVertice1>15</refVertice1>
+            <refVertice2>13</refVertice2>
+        </aresta>
+        <aresta idAresta="22" portaAcionada="nao">
+            <refVertice1>18</refVertice1>
+            <refVertice2>16</refVertice2>
+        </aresta>
+        <aresta idAresta="23" portaAcionada="nao">
+            <refVertice1>16</refVertice1>
+            <refVertice2>17</refVertice2>
+        </aresta>
+        <aresta idAresta="24" portaAcionada="nao">
+            <refVertice1>17</refVertice1>
+            <refVertice2>19</refVertice2>
+        </aresta>
+        <aresta idAresta="25" portaAcionada="sim" marco1="0" marco2="1" refContexto1="6" refContexto2="7" portaFechavel="nao">
+            <refVertice1>18</refVertice1>
+            <refVertice2>19</refVertice2>
+        </aresta>
+        <aresta idAresta="26" portaAcionada="nao">
+            <refVertice1>19</refVertice1>
+            <refVertice2>20</refVertice2>
+        </aresta>
+        <aresta idAresta="27" portaAcionada="sim" marco1="0.15" marco2="0.85" refContexto1="8" refContexto2="7" portaFechavel="sim" nomePorta="porta leste">
+            <refVertice1>20</refVertice1>
+            <refVertice2>21</refVertice2>
+        </aresta>
+        <aresta idAresta="28" portaAcionada="nao">
+            <refVertice1>21</refVertice1>
+            <refVertice2>18</refVertice2>
+        </aresta>
+        <aresta idAresta="29" portaAcionada="nao">
+            <refVertice1>20</refVertice1>
+            <refVertice2>12</refVertice2>
+        </aresta>
+        <aresta idAresta="30" portaAcionada="nao">
+            <refVertice1>5</refVertice1>
+            <refVertice2>21</refVertice2>
+        </aresta>
+        <aresta idAresta="31" portaAcionada="nao">
+            <refVertice1>10</refVertice1>
+            <refVertice2>22</refVertice2>
+        </aresta>
+        <aresta idAresta="32" portaAcionada="sim" marco1="0" marco2="1" refContexto1="10" refContexto2="9" portaFechavel="nao">
+            <refVertice1>22</refVertice1>
+            <refVertice2>23</refVertice2>
+        </aresta>
+        <aresta idAresta="33" portaAcionada="nao">
+            <refVertice1>23</refVertice1>
+            <refVertice2>3</refVertice2>
+        </aresta>
+        <aresta idAresta="34" portaAcionada="nao">
+            <refVertice1>22</refVertice1>
+            <refVertice2>24</refVertice2>
+        </aresta>
+        <aresta idAresta="35" portaAcionada="sim" marco1="0" marco2="1" refContexto1="11" refContexto2="10" portaFechavel="nao">
+            <refVertice1>24</refVertice1>
+            <refVertice2>25</refVertice2>
+        </aresta>
+        <aresta idAresta="36" portaAcionada="nao">
+            <refVertice1>25</refVertice1>
+            <refVertice2>23</refVertice2>
+        </aresta>
+        <aresta idAresta="37" portaAcionada="nao">
+            <refVertice1>24</refVertice1>
+            <refVertice2>26</refVertice2>
+        </aresta>
+        <aresta idAresta="38" portaAcionada="nao">
+            <refVertice1>26</refVertice1>
+            <refVertice2>27</refVertice2>
+        </aresta>
+        <aresta idAresta="39" portaAcionada="nao">
+            <refVertice1>27</refVertice1>
+            <refVertice2>25</refVertice2>
+        </aresta>
+        <aresta idAresta="40" portaAcionada="sim" marco1="0" marco2="1" refContexto1="12" refContexto2="9" portaFechavel="nao">
+            <refVertice1>3</refVertice1>
+            <refVertice2>28</refVertice2>
+        </aresta>
+        <aresta idAresta="41" portaAcionada="nao">
+            <refVertice1>28</refVertice1>
+            <refVertice2>29</refVertice2>
+        </aresta>
+        <aresta idAresta="42" portaAcionada="nao">
+            <refVertice1>31</refVertice1>
+            <refVertice2>30</refVertice2>
+        </aresta>
+        <aresta idAresta="43" portaAcionada="sim" marco1="0" marco2="1" refContexto1="17" refContexto2="8" portaFechavel="nao">
+            <refVertice1>12</refVertice1>
+            <refVertice2>31</refVertice2>
+        </aresta>
+        <aresta idAresta="44" portaAcionada="sim" marco1="0" marco2="1" refContexto1="13" refContexto2="1" portaFechavel="nao">
+            <refVertice1>33</refVertice1>
+            <refVertice2>32</refVertice2>
+        </aresta>
+        <aresta idAresta="45" portaAcionada="sim" marco1="0" marco2="1" refContexto1="14" refContexto2="1" portaFechavel="nao">
+            <refVertice1>5</refVertice1>
+            <refVertice2>33</refVertice2>
+        </aresta>
+        <aresta idAresta="46" portaAcionada="sim" marco1="0" marco2="1" refContexto1="15" refContexto2="4" portaFechavel="nao">
+            <refVertice1>10</refVertice1>
+            <refVertice2>34</refVertice2>
+        </aresta>
+        <aresta idAresta="47" portaAcionada="sim" marco1="0" marco2="1" refContexto1="16" refContexto2="4" portaFechavel="nao">
+            <refVertice1>34</refVertice1>
+            <refVertice2>35</refVertice2>
+        </aresta>
+        <aresta idAresta="48" portaAcionada="sim" marco1="0" marco2="1" refContexto1="13" refContexto2="12" portaFechavel="nao">
+            <refVertice1>32</refVertice1>
+            <refVertice2>36</refVertice2>
+        </aresta>
+        <aresta idAresta="49" portaAcionada="nao">
+            <refVertice1>36</refVertice1>
+            <refVertice2>28</refVertice2>
+        </aresta>
+        <aresta idAresta="50" portaAcionada="sim" marco1="0" marco2="1" refContexto1="14" refContexto2="13" portaFechavel="nao">
+            <refVertice1>33</refVertice1>
+            <refVertice2>37</refVertice2>
+        </aresta>
+        <aresta idAresta="51" portaAcionada="nao">
+            <refVertice1>37</refVertice1>
+            <refVertice2>36</refVertice2>
+        </aresta>
+        <aresta idAresta="52" portaAcionada="nao">
+            <refVertice1>30</refVertice1>
+            <refVertice2>37</refVertice2>
+        </aresta>
+        <aresta idAresta="53" portaAcionada="nao">
+            <refVertice1>29</refVertice1>
+            <refVertice2>38</refVertice2>
+        </aresta>
+        <aresta idAresta="54" portaAcionada="sim" marco1="0" marco2="1" refContexto1="16" refContexto2="15" portaFechavel="nao">
+            <refVertice1>38</refVertice1>
+            <refVertice2>34</refVertice2>
+        </aresta>
+        <aresta idAresta="55" portaAcionada="nao">
+            <refVertice1>38</refVertice1>
+            <refVertice2>39</refVertice2>
+        </aresta>
+        <aresta idAresta="56" portaAcionada="sim" marco1="0" marco2="1" refContexto1="17" refContexto2="16" portaFechavel="nao">
+            <refVertice1>39</refVertice1>
+            <refVertice2>35</refVertice2>
+        </aresta>
+        <aresta idAresta="57" portaAcionada="nao">
+            <refVertice1>39</refVertice1>
+            <refVertice2>31</refVertice2>
+        </aresta>
+    </arestas>
+    <contextos>
+        <contexto idContexto="0" totHumanoides="1" tempInicialCriar="1" PorcRemovidosCenario="0" GrupoCriarTinicial="20" GrupoCriarTfinal="100" TempoGrupoCriarTinicial="5" TempoGrupoCriarTfinal="10" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="2" DestinoMaisProximo="1" nomeContexto="sem nome 9">
+            <refAresta>0</refAresta>
+            <refAresta>1</refAresta>
+            <refAresta>2</refAresta>
+            <refAresta>3</refAresta>
+            <destino value="75,00" nome="saida oeste">75,00 - saida oeste</destino>
+            <destino value="25,00" nome="saida leste">25,00 - saida leste</destino>
+        </contexto>
+        <contexto idContexto="1" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 10">
+            <refAresta>2</refAresta>
+            <refAresta>4</refAresta>
+            <refAresta>5</refAresta>
+            <refAresta>45</refAresta>
+            <refAresta>44</refAresta>
+            <refAresta>6</refAresta>
+        </contexto>
+        <contexto idContexto="2" totHumanoides="1" tempInicialCriar="1" PorcRemovidosCenario="0" GrupoCriarTinicial="20" GrupoCriarTfinal="100" TempoGrupoCriarTinicial="5" TempoGrupoCriarTfinal="10" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="2" DestinoMaisProximo="1" nomeContexto="sem nome 11">
+            <refAresta>5</refAresta>
+            <refAresta>7</refAresta>
+            <refAresta>8</refAresta>
+            <refAresta>9</refAresta>
+            <destino value="75,00" nome="saida oeste">75,00 - saida oeste</destino>
+            <destino value="25,00" nome="saida leste">25,00 - saida leste</destino>
+        </contexto>
+        <contexto idContexto="3" totHumanoides="1" tempInicialCriar="1" PorcRemovidosCenario="0" GrupoCriarTinicial="20" GrupoCriarTfinal="100" TempoGrupoCriarTinicial="5" TempoGrupoCriarTfinal="10" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="2" DestinoMaisProximo="1" nomeContexto="sem nome 14">
+            <refAresta>12</refAresta>
+            <refAresta>13</refAresta>
+            <refAresta>14</refAresta>
+            <refAresta>15</refAresta>
+            <destino value="75,00" nome="saida oeste">75,00 - saida oeste</destino>
+            <destino value="25,00" nome="saida leste">25,00 - saida leste</destino>
+        </contexto>
+        <contexto idContexto="4" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 15">
+            <refAresta>14</refAresta>
+            <refAresta>46</refAresta>
+            <refAresta>47</refAresta>
+            <refAresta>16</refAresta>
+            <refAresta>17</refAresta>
+            <refAresta>18</refAresta>
+        </contexto>
+        <contexto idContexto="5" totHumanoides="1" tempInicialCriar="1" PorcRemovidosCenario="0" GrupoCriarTinicial="20" GrupoCriarTfinal="100" TempoGrupoCriarTinicial="5" TempoGrupoCriarTfinal="10" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="2" DestinoMaisProximo="1" nomeContexto="sem nome 16">
+            <refAresta>17</refAresta>
+            <refAresta>19</refAresta>
+            <refAresta>20</refAresta>
+            <refAresta>21</refAresta>
+            <destino value="75,00" nome="saida oeste">75,00 - saida oeste</destino>
+            <destino value="25,00" nome="saida leste">25,00 - saida leste</destino>
+        </contexto>
+        <contexto idContexto="6" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="100" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="1" DestinoMaisProximo="0" nomeContexto="saida leste">
+            <refAresta>25</refAresta>
+            <refAresta>22</refAresta>
+            <refAresta>23</refAresta>
+            <refAresta>24</refAresta>
+        </contexto>
+        <contexto idContexto="7" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 18">
+            <refAresta>25</refAresta>
+            <refAresta>26</refAresta>
+            <refAresta>27</refAresta>
+            <refAresta>28</refAresta>
+        </contexto>
+        <contexto idContexto="8" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="100" OutraRegiaoTinicial="500" OutraRegiaoTfinal="501" tipo_regiao="1" DestinoMaisProximo="0" nomeContexto="sem nome 19">
+            <refAresta>27</refAresta>
+            <refAresta>29</refAresta>
+            <refAresta>43</refAresta>
+            <refAresta>42</refAresta>
+            <refAresta>10</refAresta>
+            <refAresta>30</refAresta>
+            <destino value="100" nome="saida leste">100 - saida leste</destino>
+        </contexto>
+        <contexto idContexto="9" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="100" OutraRegiaoTinicial="1" OutraRegiaoTfinal="3" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 20">
+            <refAresta>40</refAresta>
+            <refAresta>41</refAresta>
+            <refAresta>11</refAresta>
+            <refAresta>31</refAresta>
+            <refAresta>32</refAresta>
+            <refAresta>33</refAresta>
+            <destino value="100" nome="saida oeste">100 - saida oeste</destino>
+        </contexto>
+        <contexto idContexto="10" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 21">
+            <refAresta>32</refAresta>
+            <refAresta>34</refAresta>
+            <refAresta>35</refAresta>
+            <refAresta>36</refAresta>
+        </contexto>
+        <contexto idContexto="11" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="100" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="1" DestinoMaisProximo="0" nomeContexto="saida oeste">
+            <refAresta>35</refAresta>
+            <refAresta>37</refAresta>
+            <refAresta>38</refAresta>
+            <refAresta>39</refAresta>
+        </contexto>
+        <contexto idContexto="12" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 5">
+            <refAresta>40</refAresta>
+            <refAresta>6</refAresta>
+            <refAresta>48</refAresta>
+            <refAresta>49</refAresta>
+        </contexto>
+        <contexto idContexto="13" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 6">
+            <refAresta>48</refAresta>
+            <refAresta>44</refAresta>
+            <refAresta>50</refAresta>
+            <refAresta>51</refAresta>
+        </contexto>
+        <contexto idContexto="14" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 7">
+            <refAresta>50</refAresta>
+            <refAresta>45</refAresta>
+            <refAresta>10</refAresta>
+            <refAresta>52</refAresta>
+        </contexto>
+        <contexto idContexto="15" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 8">
+            <refAresta>11</refAresta>
+            <refAresta>53</refAresta>
+            <refAresta>54</refAresta>
+            <refAresta>46</refAresta>
+        </contexto>
+        <contexto idContexto="16" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 9">
+            <refAresta>54</refAresta>
+            <refAresta>55</refAresta>
+            <refAresta>56</refAresta>
+            <refAresta>47</refAresta>
+        </contexto>
+        <contexto idContexto="17" totHumanoides="0" tempInicialCriar="0" PorcRemovidosCenario="0" GrupoCriarTinicial="0" GrupoCriarTfinal="0" TempoGrupoCriarTinicial="0" TempoGrupoCriarTfinal="0" PorcPermanecemRegiao="0" PorcOutraRegiao="0" OutraRegiaoTinicial="0" OutraRegiaoTfinal="0" tipo_regiao="0" DestinoMaisProximo="0" nomeContexto="sem nome 10">
+            <refAresta>56</refAresta>
+            <refAresta>57</refAresta>
+            <refAresta>43</refAresta>
+            <refAresta>16</refAresta>
+        </contexto>
+    </contextos>
+    <eventos>
+        <evento idEvento="0" idCompDinamico="0" nomeComportamentoDinamico="vai2" instante="1" tempoRepetir="0">vai2</evento>
+        <evento idEvento="1" idCompDinamico="1" nomeComportamentoDinamico="vai1" instante="1" tempoRepetir="0">vai1</evento>
+    </eventos>
+    <ComportamentosDinamico>
+        <compDinamico idCompDinamico="0" nome="vai2" PorcPermanecemRegiao="0" PorcRemovidosCenario="0" PorcOutraRegiao="100" OutraRegiaoTinicial="1" OutraRegiaoTfinal="2" destinoMaisProximo="false">
+            <contextoAfetados>
+                <idContexto id="2" />
+                <idContexto id="5" />
+            </contextoAfetados>
+            <destinos>
+                <destino nomeContexto="25,00 - saida oeste" />
+                <destino nomeContexto="75,00 - sem nome 19" />
+            </destinos>
+        </compDinamico>
+        <compDinamico idCompDinamico="1" nome="vai1" PorcPermanecemRegiao="0" PorcRemovidosCenario="0" PorcOutraRegiao="100" OutraRegiaoTinicial="1" OutraRegiaoTfinal="2" destinoMaisProximo="false">
+            <contextoAfetados>
+                <idContexto id="0" />
+                <idContexto id="3" />
+            </contextoAfetados>
+            <destinos>
+                <destino nomeContexto="75 - saida oeste" />
+                <destino nomeContexto="25,00 - sem nome 19" />
+            </destinos>
+        </compDinamico>
+    </ComportamentosDinamico>
+    <arquibancadas>
+        <arquibancada qtFilas="2" tamanhoAssento="0.5" porcPreenchida="0">
+            <linhasPino1>
+                <pino posx="17.8947" posy="0.0200021" posz="7.45886" />
+                <pino posx="38.5936" posy="0.020006" posz="8.38628" />
+            </linhasPino1>
+            <linhasPino2>
+                <pino posx="17.8686" posy="0.0200021" posz="3.21962" />
+                <pino posx="37.9701" posy="0.0200021" posz="4.8084" />
+            </linhasPino2>
+        </arquibancada>
+        <arquibancada qtFilas="2" tamanhoAssento="0.5" porcPreenchida="0">
+            <linhasPino1>
+                <pino posx="-34.1222" posy="0.0199983" posz="4.15643" />
+                <pino posx="-7.04483" posy="0.0200021" posz="5.65026" />
+            </linhasPino1>
+            <linhasPino2>
+                <pino posx="-33.5724" posy="0.0199983" posz="0.677147" />
+                <pino posx="-7.05076" posy="0.0199983" posz="2.02201" />
+            </linhasPino2>
+        </arquibancada>
+        <arquibancada qtFilas="2" tamanhoAssento="0.5" porcPreenchida="0">
+            <linhasPino1>
+                <pino posx="-31.4823" posy="0.0200021" posz="-28.6187" />
+                <pino posx="-4.93979" posy="0.0200021" posz="-27.3691" />
+            </linhasPino1>
+            <linhasPino2>
+                <pino posx="-32.01" posy="0.0200021" posz="-25.2712" />
+                <pino posx="-4.89535" posy="0.0200021" posz="-23.5891" />
+            </linhasPino2>
+        </arquibancada>
+        <arquibancada qtFilas="3" tamanhoAssento="0.5" porcPreenchida="1">
+            <linhasPino1>
+                <pino posx="18.8224" posy="0.0199983" posz="-25.5731" />
+                <pino posx="38.099" posy="0.020006" posz="-24.3932" />
+            </linhasPino1>
+            <linhasPino2>
+                <pino posx="18.4774" posy="0.0199983" posz="-22.4853" />
+                <pino posx="37.8495" posy="0.020006" posz="-21.1266" />
+            </linhasPino2>
+        </arquibancada>
+        <arquibancada qtFilas="2" tamanhoAssento="0.5" porcPreenchida="0">
+            <linhasPino1>
+                <pino posx="18.6387" posy="0.0199983" posz="-14.6204" />
+                <pino posx="23.3539" posy="0.0200021" posz="-14.0681" />
+            </linhasPino1>
+            <linhasPino2>
+                <pino posx="18.4687" posy="0.0200021" posz="-17.0492" />
+                <pino posx="22.6396" posy="0.0200021" posz="-16.3708" />
+            </linhasPino2>
+        </arquibancada>
+    </arquibancadas>
+</cenario>
