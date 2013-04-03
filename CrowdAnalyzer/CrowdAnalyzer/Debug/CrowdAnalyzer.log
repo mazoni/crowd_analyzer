@@ -1,0 +1,25 @@
+﻿Build started 03/04/2013 00:02:28.
+     1>Project "C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\CrowdAnalyzer\CrowdAnalyzer.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\CrowdAnalyzer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\mazoni\crowd_analyzer\include /I"C:\Program Files (x86)\OpenSceneGraph-3.0.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WIN32 /D _DEBUG /D _MBCS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Bootstrap.cpp
+         Bootstrap.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\Debug\CrowdAnalyzer.exe" /NOLOGO /LIBPATH:"C:\Program Files (x86)\OpenSceneGraph-3.0.1\lib" osgd.lib osgGAd.lib osgDBd.lib osgViewerd.lib osgTextd.lib osgUtild.lib OpenThreadsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CrowdAnalyzer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\Debug\CrowdAnalyzer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\Debug\CrowdAnalyzer.lib" /MACHINE:X86 Debug\Bootstrap.obj
+         Debug\GUIManager.obj
+         Debug\main.obj
+         Debug\TerrainParser.obj
+         Debug\Walkable.obj
+         LINK : C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\Debug\CrowdAnalyzer.exe not found or not built by the last incremental link; performing full link
+         CrowdAnalyzer.vcxproj -> C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\Debug\CrowdAnalyzer.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\Debug\CrowdAnalyzer.exe;#1" /manifest Debug\CrowdAnalyzer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CrowdAnalyzer.unsuccessfulbuild".
+         Touching "Debug\CrowdAnalyzer.lastbuildstate".
+     1>Done Building Project "C:\Users\mazoni\crowd_analyzer\CrowdAnalyzer\CrowdAnalyzer\CrowdAnalyzer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.20
