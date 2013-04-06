@@ -35,14 +35,8 @@ int main(int argc, char* argv[])
 
 		//TODO also test simulation file
 
-		string terrainXml, aux;
 
-		while(!terrainFile.eof()) {			
-			getline(terrainFile, aux);
-			terrainXml = terrainXml + aux;
-		}
-
-		Bootstrap* initializer = new Bootstrap(terrainXml);
+		Bootstrap* initializer = new Bootstrap(terrainFileStr);
 		initializer->run();		
 
 	}

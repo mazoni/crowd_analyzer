@@ -14,6 +14,7 @@ Bootstrap::Bootstrap(string templateXml)
 void Bootstrap::run(void)
 {
 	TerrainParser* terrainParser = new TerrainParser(this->templateXml);
+	int response = terrainParser->parseTerrain();
 	this->initWindow();
 }
 
