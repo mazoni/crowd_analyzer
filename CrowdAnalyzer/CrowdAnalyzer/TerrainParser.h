@@ -8,7 +8,7 @@ using namespace std;
 
 class TerrainParser
 {
-	list<Walkable> walkables;
+	list<Walkable*> walkables;
 	string terrainXml;
 
 public:
