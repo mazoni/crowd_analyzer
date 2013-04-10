@@ -1,9 +1,16 @@
+#include <list>
+#include "Walkable.h"
+
+using namespace std;
+
 #pragma once
 class GUIManager
 {
+	list<Walkable*> walkables;
 public:
-	GUIManager(void);
+	GUIManager(list<Walkable*> walkables);
 	void render(void);
+	void renderSample(void);
 	~GUIManager(void);
 };
 

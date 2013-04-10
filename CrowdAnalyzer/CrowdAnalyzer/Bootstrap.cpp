@@ -14,13 +14,14 @@ Bootstrap::Bootstrap(string templateXml)
 void Bootstrap::run(void)
 {
 	TerrainParser* terrainParser = new TerrainParser(this->templateXml);
-	int response = terrainParser->parseTerrain();
+	int response = terrainParser->ParseTerrain();
+	this->walkables = terrainParser->GetWalkables();
 	this->initWindow();
 }
 
 void Bootstrap::initWindow(void)
 {
-	GUIManager* guiManager = new GUIManager();
+	GUIManager* guiManager = new GUIManager(this->walkables);
 	guiManager->render();
 }
 

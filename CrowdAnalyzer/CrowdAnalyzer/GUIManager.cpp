@@ -2,15 +2,18 @@
 #include <osg/Node>
 #include <osg/Group>
 #include <osg/Geode>
+#include <osg/MatrixTransform>
 #include <osg/Geometry>
 #include <osg/Texture2D>
 #include <osgDB/ReadFile> 
 #include <osgViewer/Viewer>
 #include <osg/PositionAttitudeTransform>
 #include <osgGA/TrackballManipulator>
+#include <osgGA/FlightManipulator>
 
-GUIManager::GUIManager(void)
+GUIManager::GUIManager(list<Walkable*> walkables)
 {
+	this->walkables = walkables;
 }
 
 
@@ -18,7 +21,53 @@ GUIManager::~GUIManager(void)
 {
 }
 
+
 void GUIManager::render(void)
+{
+	osg::Group* root = new osg::Group();
+
+	//Walkable *w;
+	//list<Walkable*>::iterator it = this->walkables.begin();
+	//w = *it;
+	osg::Geode* geode = new osg::Geode();
+
+	Walkable *w;
+	for(list<Walkable*>::iterator it = this->walkables.begin(); it != this->walkables.end(); ++it) 
+	{
+		w = *it;
+		osg::Geometry* walkableGeom = new osg::Geometry();
+
+		list<Vertex*> vertices = w->getVertices();
+		osg::Vec3Array* walkableVertices = new osg::Vec3Array();
+		Vertex* v;
+		for(list<Vertex*>::iterator itVertex = vertices.begin(); itVertex != vertices.end(); ++itVertex)
+		{
+			v = *itVertex;
+			walkableVertices->push_back( osg::Vec3( v->x, v->y, v->z) );
+		}
+
+		walkableGeom->setVertexArray(walkableVertices);
+
+		walkableGeom->addPrimitiveSet(new osg::DrawArrays(osg::PrimitiveSet::QUADS,0,vertices.size()));
+
+		geode->addDrawable(walkableGeom);
+
+	}
+
+	root->addChild(geode);
+
+	osgViewer::Viewer viewer;
+	viewer.setSceneData(root);
+	viewer.setCameraManipulator(new osgGA::TrackballManipulator());
+	//viewer.setCameraManipulator(new osgGA::FlightManipulator());
+	
+	//viewer.setUpViewInWindow(30, 30, 640, 480); 
+
+	viewer.run();
+}
+
+
+void GUIManager::renderSample(void)
 {
 	osgViewer::Viewer viewer;
     osg::Group* root = new osg::Group();
