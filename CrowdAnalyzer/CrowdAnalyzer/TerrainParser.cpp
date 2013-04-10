@@ -24,6 +24,10 @@ struct Edge {
 	int a,b;
 };
 
+list<Walkable*> TerrainParser::GetWalkables(void) 
+{
+	return this->walkables;
+}
 
 TerrainParser::TerrainParser(string terrainXml)
 {
@@ -244,7 +248,7 @@ hash_map<int, Vertex*> parseVertex(DOMElement* root)
 }
 
 
-int TerrainParser::parseTerrain(void) 
+int TerrainParser::ParseTerrain(void) 
 {
 
 	try {

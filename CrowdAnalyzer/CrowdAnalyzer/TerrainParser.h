@@ -14,6 +14,7 @@ class TerrainParser
 public:
 	TerrainParser(string terrainXml);
 	~TerrainParser(void);
-	int parseTerrain(void);
+	int ParseTerrain(void);
+	list<Walkable*> GetWalkables(void);
 };
 
