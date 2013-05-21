@@ -7,6 +7,7 @@
 #include <osg/Texture2D>
 #include <osgDB/ReadFile> 
 #include <osgViewer/Viewer>
+#include <osg/ShapeDrawable>
 #include <osg/PositionAttitudeTransform>
 #include <osgGA/TrackballManipulator>
 #include <osgGA/FlightManipulator>
@@ -21,22 +22,19 @@ GUIManager::~GUIManager(void)
 {
 }
 
-
-void GUIManager::render(void)
+osg::Geode* GUIManager::renderWalkables(void) 
 {
-	osg::Group* root = new osg::Group();
-
-	//Walkable *w;
-	//list<Walkable*>::iterator it = this->walkables.begin();
-	//w = *it;
 	osg::Geode* geode = new osg::Geode();
-
 	Walkable *w;
+
+	osg::Vec4Array* colors = new osg::Vec4Array;
+    colors->push_back(osg::Vec4(1.0f, 1.0f, 1.0f, 1.0f) ); //index 0 red
+
 	for(list<Walkable*>::iterator it = this->walkables.begin(); it != this->walkables.end(); ++it) 
 	{
 		w = *it;
 		osg::Geometry* walkableGeom = new osg::Geometry();
-
+		walkableGeom->setColorArray(colors);
 		list<Vertex*> vertices = w->getVertices();
 		osg::Vec3Array* walkableVertices = new osg::Vec3Array();
 		Vertex* v;
@@ -48,20 +46,43 @@ void GUIManager::render(void)
 
 		walkableGeom->setVertexArray(walkableVertices);
 
-		walkableGeom->addPrimitiveSet(new osg::DrawArrays(osg::PrimitiveSet::QUADS,0,vertices.size()));
+		walkableGeom->addPrimitiveSet(new osg::DrawArrays(osg::PrimitiveSet::POLYGON,0,vertices.size()));
 
 		geode->addDrawable(walkableGeom);
 
 	}
 
-	root->addChild(geode);
+	return geode;
+
+}
+
+osg::Geode* GUIManager::renderWalkers(void) 
+{
+	
+	osg::Geode* geode = new osg::Geode();
+	geode->addDrawable( new osg::ShapeDrawable( new osg::Sphere(osg::Vec3(0.0f,-1.0f,0.0f),1.0f) ) );
+
+	osg::Geometry* walkerGeom = new osg::Geometry();
+	return geode;
+}
+
+void GUIManager::render(void)
+{
+	osg::Group* root = new osg::Group();
+
+	//Walkable *w;
+	//list<Walkable*>::iterator it = this->walkables.begin();
+	//w = *it;
+
+	root->addChild(this->renderWalkables());
+	root->addChild(this->renderWalkers());
 
 	osgViewer::Viewer viewer;
 	viewer.setSceneData(root);
 	viewer.setCameraManipulator(new osgGA::TrackballManipulator());
 	//viewer.setCameraManipulator(new osgGA::FlightManipulator());
 	
-	//viewer.setUpViewInWindow(30, 30, 640, 480); 
+	viewer.setUpViewInWindow(30, 30, 640, 480); 
 
 	viewer.run();
 }

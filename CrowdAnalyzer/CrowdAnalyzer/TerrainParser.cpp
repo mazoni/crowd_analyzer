@@ -33,17 +33,6 @@ TerrainParser::TerrainParser(string terrainXml)
 {
 	// take a look at http://xerces.apache.org/xerces-c/program-dom-3.html#ConstructDOMLSParser
 	this->terrainXml = terrainXml;
-	cout << terrainXml << endl;
-	Walkable* w = new Walkable(1);
-	this->walkables.push_back(w);
-	w = new Walkable(2);
-	this->walkables.push_back(w);
-	for(list<Walkable*>::iterator it = this->walkables.begin(); it != this->walkables.end(); ++it) 
-	{
-		w = *it;
-		w->toString();
-	}
-
 }
 
 
@@ -72,7 +61,6 @@ list<Walkable*> parseWalkables(DOMElement* root, hash_map<int, Vertex*> vertexMa
 			DOMNodeList* edgeRefs = walkable->getChildNodes();
 			Walkable *w = new Walkable(0);
 			list<Vertex*> vertices;
-			set<int> addedVertices;
 
 			for(unsigned int j = 0; j< edgeRefs->getLength(); j++) {
 				DOMNode* ref = edgeRefs->item(j);
@@ -84,18 +72,10 @@ list<Walkable*> parseWalkables(DOMElement* root, hash_map<int, Vertex*> vertexMa
 					int vexAId = edgesMap[atoi(nodeValue.c_str())].a;
 					int vexBId = edgesMap[atoi(nodeValue.c_str())].b;
 
-					if( addedVertices.find(vexAId) == addedVertices.end()) 
-					{
-						Vertex* a = vertexMap[vexAId];
-						vertices.push_back(a);
-						addedVertices.insert(vexAId);
-					}
-					if( addedVertices.find(vexBId) == addedVertices.end()) 
-					{
-						Vertex* b = vertexMap[vexBId];
-						vertices.push_back(b);
-						addedVertices.insert(vexBId);
-					}
+					Vertex* a = vertexMap[vexAId];
+					vertices.push_back(a);
+					Vertex* b = vertexMap[vexBId];
+					vertices.push_back(b);
 				} 
 			}
 			if(!vertices.empty()) 
@@ -311,19 +291,6 @@ int TerrainParser::ParseTerrain(void)
 
     delete parser;
     delete errHandler;
-
-
-
-	/*Walkable* w = new Walkable(1);
-	this->walkables.push_back(*w);
-	w = new Walkable(2);
-	this->walkables.push_back(*w);*/
-
-
-	Walkable *w;
-	list<Walkable*>::iterator it = this->walkables.begin();
-	w = *it;
-	w->toString();
 	
 	return 1;
 
